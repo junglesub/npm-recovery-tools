@@ -1,0 +1,6 @@
+# Paste your server command here.
+# Example:
+# curl -L "https://raw.githubusercontent.com/junglesub/npm-recovery-tools/main/scripts/rebuild-host-configs.js" -o rebuild-host-configs.js
+# npm init -y
+# npm install better-sqlite3 liquidjs
+# node ./rebuild-host-configs.js --db /data/database.sqlite --output /data/nginx

@@ -1,0 +1,27 @@
+{
+  "name": "npm-recovery-tools",
+  "version": "1.0.0",
+  "description": "Small recovery tools for Nginx Proxy Manager host config rebuilds and Windows typing fallback",
+  "type": "module",
+  "bin": {
+    "npm-rebuild-host-configs": "./scripts/rebuild-host-configs.js",
+    "type-at-cursor-windows": "./scripts/type-at-cursor-windows.js"
+  },
+  "scripts": {
+    "rebuild": "node ./scripts/rebuild-host-configs.js",
+    "type-at-cursor": "node ./scripts/type-at-cursor-windows.js"
+  },
+  "keywords": [
+    "nginx-proxy-manager",
+    "sqlite",
+    "recovery",
+    "nginx",
+    "windows",
+    "sendkeys"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "liquidjs": "^10.24.0"
+  }
+}
